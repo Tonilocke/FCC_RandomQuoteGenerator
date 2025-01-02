@@ -5,7 +5,7 @@ import quotes from './db';
 function App() {
   //const [quotes,setQuotes] = useState([]);
   const [randomQuote,setRandomQuote] = useState({"quote":"Generate a quote","author":"by Author Name"});
-  /*async function fetchDB(){
+  async function fetchDB(){
     const response = await fetch("http://localhost:5173/data/db.json");
     const result = await response.json();
     setQuotes(result.quotes);
