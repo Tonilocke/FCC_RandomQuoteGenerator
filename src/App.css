@@ -1,0 +1,26 @@
+:root{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  height: 100%;
+  background-color: beige;
+  font-family:  monospace;
+  font-size: 18px;
+}
+#quote-box{
+  width: 500px;
+  height: fit-content;
+  margin: 0 auto;
+  background-color: aquamarine;
+  color:#333333;
+}
+#text{
+  font-weight: 600;
+}
+#author{
+  margin: 0 auto;
+  right: 0;
+  font-style: italic;
+}
