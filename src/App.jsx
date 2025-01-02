@@ -6,7 +6,7 @@ function App() {
   const [quotes,setQuotes] = useState([]);
   const [randomQuote,setRandomQuote] = useState({"quote":"Generate a quote","author":"by Author Name"});
   async function fetchDB(){
-    const response = await fetch("http://localhost:5173/data/db.json");
+    const response = await fetch("https://github.com/Tonilocke/FCC_RandomQuoteGenerator/blob/main/data/db.json");
     const result = await response.json();
     setQuotes(result.quotes);
   }
