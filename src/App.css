@@ -9,7 +9,7 @@ body{
   font-family:  monospace;
   font-size: 18px;
 }
-#quote-box{
+#quote-box{ 
   width: 500px;
   height: fit-content;
   margin: 0 auto;
